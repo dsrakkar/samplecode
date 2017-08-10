@@ -1,0 +1,15 @@
+Python has a standard library:
+and to call a function you have call the module.
+the modules have the functions you need to call:
+example:
+import random - call the module
+random.randint() - call the function in the module
+
+randint is not a built in function like print() this is why you need to call the module where the function is.
+
+you can also call multiple modules like this:
+import random, sys, os, math
+another way to import all of modules functions:
+from random import *
+call the function directly:
+randint()
